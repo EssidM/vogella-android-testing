@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.main_btn_convert:
-                RadioButton celsiusButton = (RadioButton) findViewById(R.id.main_radio_celcus);
+                RadioButton celsiusButton = (RadioButton) findViewById(R.id.main_radio_celsius);
                 RadioButton fahrenheitButton = (RadioButton) findViewById(R.id.main_radio_fahr);
                 if (mTemperatureInput.getText().length() == 0) {
                     Toast.makeText(MainActivity.this, getString(R.string.err_enter_valid_number),
